@@ -11,7 +11,7 @@ body {
     left: 0;
 }
 .window {
-    display: none;
+    visibility: hidden;
     position: absolute;
     /*Color only for visualition*/
     background-color: violet;
@@ -30,7 +30,7 @@ body {
     left: 0;
 }
 .button_to_terminal {
-    display: none;
+    visibility: hidden;
     position: absolute;
     /*Color only for visualition*/
     background: blue;
@@ -42,10 +42,21 @@ body {
 .hide_current {
     opacity: 0;
     visibility: hidden;
-    transition: all 0.2s all;
+    transition: all 0.2s;
 }
 .show_hidden {
     opacity: 100;
     visibility: visible;
-    transition: all 0.2s all;
+    transition: all 0.2s;
+}
+.terminal_box {
+    background-color: black;
+    border: 30px;
+    border-color: white;
+    border-radius: 10px;
+    position: relative;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
 }
