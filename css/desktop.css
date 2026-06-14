@@ -60,3 +60,10 @@ body {
     top: 5%;
     left: 5%;
 }
+.soon_text {
+    position:absolute;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 45%;
+    left: 49%;
+}
