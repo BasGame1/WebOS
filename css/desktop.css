@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+}
+.terminal {
+    position: absolute;
+    /*Color only for visualition*/
+    background-color: red;
+    height: 90%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.window {
+    display: none;
+    position: absolute;
+    /*Color only for visualition*/
+    background-color: violet;
+    height: 90%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.button_to_window {
+    position: absolute;
+    /*Color only for visualition*/
+    background: black;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.button_to_terminal {
+    display: none;
+    position: absolute;
+    /*Color only for visualition*/
+    background: blue;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.hide_current {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s all;
+}
+.show_hidden {
+    opacity: 100;
+    visibility: visible;
+    transition: all 0.2s all;
+}
