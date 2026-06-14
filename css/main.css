@@ -1,5 +1,7 @@
 body {
     background-image: url(../src/assets/background.jpg);
+    max-height: 100%;
+    max-width: 100%;
 }
 .title {
     color: black;
@@ -19,9 +21,77 @@ body {
     top: 0;
 }
 .title_menu {
-    position: relative;
-    background-color: red;
-    left: 0;
-    right: auto;
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    display: inline-block;
+    height: 8%;
+    width: 100%;
 
+}
+.title_menu_button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.title_menu_options {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.title_menu_options a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.title_menu_options a:hover {
+    color:#04AA6D;
+    font-family: "Audiowide", sans-serif;
+}
+.title_menu_button:hover {
+    font-family: "Audiowide", sans-serif;
+    font-size: small;
+}
+.title_menu_options a:hover {
+    background-color: #ddd;
+}
+.title_menu:hover .title_menu_options {
+    display: block;
+}
+.title_menu:hover .title_menu_button {
+    background-color: #3e8e41;
+}
+.main_text {
+    position: relative;
+    background: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin-top: 25%;
+    margin-left: 0%;
+    height: 200px;
+    width: 400px;
+}
+.main_text:hover {
+    background-image: url(../src/assets/tux_terminal.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-style: oblique;
+    color:white;
+    font-family: "Audiowide", sans-serif;
+}
+.main_text_span {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
 }
