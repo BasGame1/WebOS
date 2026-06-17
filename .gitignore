@@ -25,3 +25,7 @@ dist-ssr
 
 # todo and configuration files
 TODO.md
+
+# Other files
+public/v86
+public/linux
