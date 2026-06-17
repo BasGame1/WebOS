@@ -2,6 +2,7 @@ body {
     background-color: gray;
 }
 .terminal {
+    visibility: hidden;
     position: absolute;
     /*Color only for visualition*/
     background-color: red;
@@ -11,7 +12,6 @@ body {
     left: 0;
 }
 .window {
-    visibility: hidden;
     position: absolute;
     /*Color only for visualition*/
     background-color: violet;
@@ -21,6 +21,7 @@ body {
     left: 0;
 }
 .button_to_window {
+        visibility: hidden;
     position: absolute;
     /*Color only for visualition*/
     background: black;
@@ -30,7 +31,6 @@ body {
     left: 0;
 }
 .button_to_terminal {
-    visibility: hidden;
     position: absolute;
     /*Color only for visualition*/
     background: blue;
