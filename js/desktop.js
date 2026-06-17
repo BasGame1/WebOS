@@ -1,7 +1,7 @@
 const button_terminal = document.getElementById('change_to_window');
 const button_window = document.getElementById('change_to_terminal');
 const terminal_screen = document.getElementById('terminal')
-const window_screen = document.getElementById('window')
+const window_screen = document.getElementById('window_gui')
 
 function ChangeToWindow(e) {
     e.preventDefault();
